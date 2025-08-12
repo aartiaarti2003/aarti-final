@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e3a5f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1e3a5f;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffca28;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1e3a5f;
+      border-bottom: 2px solid #ffca28;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section i {
+      color: #1e3a5f;
+      margin-right: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skill-tag {
+      background-color: #ffca28;
+      color: #333;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Resume</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h2><i class="fas fa-user-circle"></i> Summary</h2>
+      <p>Motivated and detail-oriented professional with a passion for design and development. Skilled in creating user-focused, accessible, and aesthetically pleasing digital experiences.</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <ul>
+        <li><strong>Advanced Diploma in Interaction Design & Development</strong> – Algonquin college, 2023–2025</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-briefcase"></i> Experience</h2>
+      <ul>
+        <li><strong>Web Design Intern</strong> – Creative Studios (2024)<br>• Designed responsive web layouts using Figma<br>• Assisted with WordPress updates and client support</li>
+        <li><strong>Freelance Graphic Designer</strong> – Self-employed (2023)<br>• Created custom logos, posters, and social media banners for small businesses</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-tools"></i> Skills</h2>
+      <div class="skills">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">Figma</span>
+        <span class="skill-tag">WordPress</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Responsive Design</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+

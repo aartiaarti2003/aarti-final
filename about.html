@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me | Aarti's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #1e3a5f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #1e3a5f;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+    }
+    .highlight {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    /* Flex container for profile section */
+    .profile-section {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+    .profile-photo {
+      flex: 1 1 200px;
+      max-width: 200px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(30,58,95,0.3);
+      object-fit: cover;
+      height: 200px;
+      width: 200px;
+    }
+    .profile-text {
+      flex: 2 1 400px;
+    }
+
+    /* Timeline styles */
+    .timeline {
+      border-left: 3px solid #2563eb;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+    .timeline-item {
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 5px;
+      width: 15px;
+      height: 15px;
+      background-color: #2563eb;
+      border-radius: 50%;
+    }
+    .timeline-item h3 {
+      margin-bottom: 0.3rem;
+      color: #1e3a5f;
+    }
+    .timeline-item p {
+      margin: 0;
+      color: #555;
+    }
+
+    /* Testimonial */
+    .testimonial {
+      background-color: #e6f0f8;
+      border-left: 5px solid #2563eb;
+      padding: 1rem 1.5rem;
+      font-style: italic;
+      color: #1e3a5f;
+      border-radius: 5px;
+      margin-top: 3rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1e3a5f;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media(max-width: 600px) {
+      .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .profile-text {
+        flex: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile-section">
+      <img src="WhatsApp Image 2025-07-09 at 14.35.54_83cb971c.jpg" alt="Aarti's Photo" class="profile-photo" />
+      <div class="profile-text">
+        <h2>Hello, I'm Aarti</h2>
+        <p>
+          I am a passionate <span class="highlight">web developer</span> focused on creating clean, responsive, and user-friendly websites. I turn ideas into beautiful digital experiences.
+        </p>
+        <p>
+          Skilled in <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, <span class="highlight">JavaScript</span>, and modern UI/UX design tools. I continuously learn to keep up with the latest web trends.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Journey</h2>
+      <div class="timeline">
+        <div ></div>
+          <h3>Diploma in Web Development - 2021 to 2023</h3>
+          <p>Completed an intensive program to build strong skills in frontend development and design.</p>
+        </div>
+        <divclass="timeline"></divclass>
+          <h3>Front-End Developer Intern - Jan 2024 to Apr 2025</h3>
+          <p>Worked with a tech startup on building responsive websites and improving user experience.</p>
+        </div>
+        <div ></div>
+          <h3>Continual Learning</h3>
+          <p>Exploring new technologies and contributing to open source projects while enhancing mental health awareness through tech.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aarti's Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
